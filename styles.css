@@ -1,10 +1,28 @@
 body {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(133, 167, 255), blue);
+    /*background-image: url("./img/background.jpg");*/
+background-color: rgb(240, 240, 240);
     padding:20px;
+    background-size: cover; /* Makes the background image cover the entire screen */
+    background-position: center; /* Centers the image */
+    font-family: 'Courier New', Courier, monospace;
    
 
 }
 
+.left-side-2{
+    width:25%;
+    background-color: aqua;
+}
+
+.img{
+    
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+
+}
 .big-container{
     height:100vh;}
 
@@ -13,17 +31,12 @@ body {
       }
 
 .left-side{
-       width: 25%;
+    flex:1;
        background-color: aqua;
-
-
-
 }
 
 .right-side{
-    width: 75%; 
-    background-color: rgb(255, 140, 0);
-
+    flex:2;
 }
 
 .grid-container {
@@ -48,12 +61,13 @@ body {
 
 .color-block{
     background-color: blue; 
-    width: 100px; /* 宽度自适应网格单元格 */
-    height: 100px; /* 高度自适应网格单元格 */
+    width:150px;
+    height:150px;
 }
 
 .poem{
  font-size: 10px;
+
 }
 
 
