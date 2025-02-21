@@ -1,34 +1,28 @@
 body {
-    background-image: linear-gradient(red, yellow, blue);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(133, 167, 255), blue);
     padding:20px;
    
 
 }
 
 .big-container{
-    display:flex;
-    flex-direction: column;
     height:100vh;}
 
+ .d-flex {
+        display: flex;
+      }
+
 .left-side{
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    padding:20px;
-    width: 25%;
+       width: 25%;
+       background-color: aqua;
+
+
 
 }
 
 .right-side{
     width: 75%; 
-    flex:3;
-    display: flex;
-    flex-direction: column;
-
-    padding:20px;
-    width:100px;
-    align-items:stretch;
-
+    background-color: rgb(255, 140, 0);
 
 }
 
