@@ -1,3 +1,43 @@
+@font-face {
+    font-family: 'GTPressuraMonoTrial-Text';
+    src: url('./font/GTPressuraMonoTrial-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KomunaTrial-6Round1000';
+    src: url('./font/KomunaTrial-6Round1000.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomunaTrial-6Round100Italic';
+    src: url('./font/KomunaTrial-6Round100Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomunaTrial-6Round200';
+    src: url('./font/KomunaTrial-6Round200.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomunaTrial-6Round200Italic';
+    src: url('./font/KomunaTrial-6Round200Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomunaTrial-6Round25';
+    src: url('./font/KomunaTrial-6Round25.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     width:1700px;
@@ -39,7 +79,7 @@ details{
 .button-1 {
     background-color: #d4ff00; 
     margin-top: 4rem;;
-    font-family: GT Pressura Mono Trial;
+    font-family:  GTPressuraMonoTrial-Text;
     font-size: 20px; 
     border: none; 
     cursor: pointer;
@@ -76,11 +116,11 @@ p{animation: typing 2s steps(40, end) forwards;
 details {
     font-size: larger;
     display:inline-block;
-    font-family: GT Pressura Mono Trial;
+    font-family: GTPressuraMonoTrial-Text;
 }
 
-.pre{ font-family: GT Pressura Mono Trial; font-size: 18pt;line-height: 14pt;}
-ul{ font-family: GT Pressura Mono Trial;}
+.pre{ font-family: GTPressuraMonoTrial-Text; font-size: 18pt;line-height: 14pt;}
+ul{ font-family: GTPressuraMonoTrial-Text;}
 
 .first-row{
     display:flex;
@@ -102,7 +142,7 @@ ul{ font-family: GT Pressura Mono Trial;}
     font-size: 14px;
     background-color: #d4ff00;
     margin-top: 8rem;
-    font-family: GT Pressura Mono Trial;
+    font-family: GTPressuraMonoTrial-Text;
     text-align: center;
     color: black;
     display: block; 
@@ -116,7 +156,7 @@ ul{ font-family: GT Pressura Mono Trial;}
 
 .box-3 {
     font-size: 340px;
-    font-family: KomunaTrial Var;
+    font-family: KomunaTrial-6Round25;
     line-height: 240px;
     text-align:left;
     margin-top: -2rem;
@@ -170,7 +210,7 @@ ul{ font-family: GT Pressura Mono Trial;}
         font-size: 14px;
         background-color:#3c63d2;
         margin-top: 55rem;
-        font-family: GT Pressura Mono Trial;
+        font-family: GTPressuraMonoTrial-Text;
         text-align: center;
         color: black;
         display: block; 
